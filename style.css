@@ -78,8 +78,9 @@ select{
 @media(max-width: 730px){
     .max{
         max-width: 650px;
-        margin-top: 0px;
+        margin-top: 30px;
         text-align: center;
+        height: 350px;
     }
     textarea{
         width: 70%;
@@ -120,6 +121,9 @@ select{
         width: 100%;
         margin-bottom: 0px;
     }
+    button{
+        padding: 10px 30px;
+    }
 }
 
 @media(max-width: 500px){
@@ -127,7 +131,7 @@ select{
         font-size: 10px;
     }
     button{
-        padding: 8px;
+        padding: 10px 30px;
     }
    
     textarea{
