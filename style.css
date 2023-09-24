@@ -78,11 +78,13 @@ select{
 @media(max-width: 730px){
     .max{
         max-width: 650px;
-        margin-top: 50px;
+        margin-top: 0px;
+        text-align: center;
     }
     textarea{
-        width: 100%;
+        width: 70%;
         height: 250px;
+        margin-bottom: 10px;
         }  
         .max h1{
             padding-top: 30px;
@@ -90,17 +92,33 @@ select{
             margin-bottom: 40px;
             text-align: center;
         } 
+        .display{
+            display: flex;
+            width: 70%;
+            align-items: center;
+            gap: 15px;
+            margin: auto;
+        
+        }
 }
 
 @media(max-width: 620px){
     .display{
         display: flex;
-        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .display{
+        display: flex;
+        width: 70%;
         align-items: center;
         gap: 30px;
+        margin: auto;
     }
+   
     select{
         width: 100%;
+        margin-bottom: 0px;
     }
 }
 
@@ -113,19 +131,19 @@ select{
     }
    
     textarea{
-        width: 100%;
+        /* width: 100%; */
         height: 200px;
         font-size: 13px;
         }  
         .max h1{
             padding-top: 30px;
-            font-size: 22px;
-            margin-bottom: 40px;
+            font-size: 16px;
+            margin-bottom: 20px;
             text-align: center;
         } 
         .max{
             max-width: 100%;
-            margin-top: 20px;
+            /* margin-top: 20px; */
         }
         button{
             font-size: 10px;
@@ -137,15 +155,15 @@ select{
 }
 @media(max-width: 350px){
     textarea{
-        width: 100%;
+        /* width: 100%; */
         height: 150px;
         } 
         select{
             font-size: 9px;
         }
         .max h1{
-            padding-top: 30px;
-            font-size: 16px;
+            padding-top: 20px;
+            font-size: 13px;
             margin-bottom: 20px;
             text-align: center;
         } 
